@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.764c3dad.css",
+    "main.js": "/static/js/main.21215344.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/profilephoto.jpg": "/static/media/profilephoto.335b683b588e745532be.jpg",
+    "static/media/Sritam_Mahapatro_resume_9078667838.pdf": "/static/media/Sritam_Mahapatro_resume_9078667838.4a55d061e17fd75072d5.pdf",
+    "static/media/greenThemeboy.svg": "/static/media/greenThemeboy.de76babb32ab41ec97d50398eddafff8.svg",
+    "index.html": "/index.html",
+    "main.764c3dad.css.map": "/static/css/main.764c3dad.css.map",
+    "main.21215344.js.map": "/static/js/main.21215344.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.764c3dad.css",
+    "static/js/main.21215344.js"
+  ]
+}
