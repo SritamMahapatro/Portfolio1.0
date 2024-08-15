@@ -1,0 +1,92 @@
+.technical-skills-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    opacity: 0;
+    animation: slideInSection 1s ease-out forwards;
+  }
+  
+  .technical-skills-section h2 {
+    font-size: 45px;
+    color: #f1721e;
+    margin-bottom: 40px;
+    font-weight: 700;
+    animation: fadeInTitle 1.2s ease-in-out forwards;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    opacity: 0;
+    animation: fadeInContainer 1.4s ease-in-out forwards;
+  }
+  
+  .skill-item {
+    background: #e0e0e0;
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(50px) scale(0.9);
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    animation: bounceIn 0.8s ease-out forwards;
+    animation-delay: calc(0.1s * var(--i));
+  }
+  
+  .skill-item:hover {
+    background: #007bff;
+    transform: translateY(-5px) scale(1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  @keyframes slideInSection {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInTitle {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fadeInContainer {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px) scale(0.9);
+    }
+    60% {
+      opacity: 1;
+      transform: translateY(-10px) scale(1.05);
+    }
+    100% {
+      transform: translateY(0) scale(1);
+    }
+  }

@@ -1,0 +1,116 @@
+.contact-me-section {
+    padding:  90px;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .contact-me-section h2 {
+    font-size: 45px;
+    color: #f1721e;
+    font-weight: 700;
+    letter-spacing: 1px;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-bottom: 50px;
+  }
+
+  .contact-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .form-group textarea {
+    height: 150px;
+    resize: vertical;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .submitted-message {
+    font-size: 18px;
+    color: #28a745;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #d4edda;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  .error-message {
+    color: #d9534f;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    position: fixed;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .footer span {
+    color: #e74c3c; 
+  }
